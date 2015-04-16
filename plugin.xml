@@ -18,7 +18,10 @@
     </description>
 
     <license>MIT</license>
-    <!-- jQuery -->
+    <!-- mCAPjs-client -->
+    <js-module src="www/bower_components/mcapjs-client/dist/mcap.js" name="_mCAP">
+        <clobbers target="_mCAP" />
+    </js-module>
     <!-- mCAP cordova push plugin -->
     <js-module src="www/driver.com.phonegap.plugins.push.js" name="mCAPCordovaPushPlugin">
         <clobbers target="mCAPCordovaPushPlugin" />
